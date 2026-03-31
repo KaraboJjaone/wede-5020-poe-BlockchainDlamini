@@ -1,9 +1,9 @@
 # Project Title
-Checkers66 clone
+Hulela Projects
 
 ## Student Information
 Student number: 123456
-Student Name: John Doe
+Student Name: Karabo
 
 ## Project Overview
 
