@@ -2,8 +2,8 @@
 Checkers66 clone
 
 ## Student Information
-Student number: 123456
-Student Name: John Doe
+Student number: ST10485247
+Student Name: Karabo Jjaone
 
 ## Project Overview
 
@@ -11,7 +11,10 @@ Pull this from your project proposal.
 
 ## Website Goals and Objectives
 
-Pull this from your project proposal.
+-Skills Training
+-Funding opportunities
+-Reduce poverty and crime
+-Improve economic growth
 
 ## Timeline and Milestones
 
