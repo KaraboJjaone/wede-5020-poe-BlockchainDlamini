@@ -26,7 +26,7 @@ Pull this from your project proposal.
 
 
 ## Sitemap
-https://github.com/KaraboJjaone/wede-5020-poe-BlockchainDlamini/blob/2ad8afae5a35ec98b92e6bc1d38e85538e20c715/img/Website%20Sitemap.png
+![image alt](https://github.com/KaraboJjaone/wede-5020-poe-BlockchainDlamini/blob/2ad8afae5a35ec98b92e6bc1d38e85538e20c715/img/Website%20Sitemap.png)
 
 
 
