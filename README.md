@@ -27,7 +27,7 @@ Pull this from your project proposal.
 
 ## Sitemap
 
-![Website Sitemap](img/mysitemap.png)
+
 
 ## References
 Conventry Domains, 2019. HTML, CSS and the Languages of the Web. [online] Available at: https://coventry.domains/learn/languages-of-the-web/ [Accessed 4 April 2026]
