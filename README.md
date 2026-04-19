@@ -35,10 +35,15 @@ Conventry Domains, 2019. HTML, CSS and the Languages of the Web. [online] Availa
 
 Growth Pulse Media, 2026 Web Design Pricing South Africa: Complete Cost Guide 2026, [online] Available at: https://www.growthpulsemedia.co.za/web-design-pricing-south-africa [Accessed 9 April 2026]
 
+On Strategy, 2024. KPIs Meaning + 27 Examples of Key Performance Indicators. [online] Available at: https://onstrategyhq.com/resources/27-examples-of-key-performance-indicators/ [Accessed 4 April 2026]
+
 One Each Technologies, 2026 The Best Website Hosting for Nonprofits with OneEach, [online] Available at: https://oneeach.com/solutions/hosting [Accessed 9 April 2026]
 
 SA Business Council, 2023, [online] Available at: https://sabusinesscouncil.org.za/ [Accessed 8 April 2026]
 
+Serious Otters, 2025, [online] Available at: https://www.seriousotters.com/blog/digital-marketing-goals-audience-nonprofits-social-enterprises/ [Accessed 18 April 2026]
+
 Tdl-list, 2015 Domain registrations, [online] Available at: https://tld-list.com/tld/org.za [Accessed 9 April 2026]
 
 Zoho, 2023 Creating a website that engages: The key functionalities you need to include. [online] Available at: https://www.zoho.com/en-au/tech-talk/functionalities-of-a-website.html [Accessed 9 April 2026]
+
