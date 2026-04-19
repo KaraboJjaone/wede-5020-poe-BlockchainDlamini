@@ -50,7 +50,8 @@ Phase 3: Initial Development Setup (17–20 April)
 
 ## Sitemap
 
-![Website Sitemap](img/mysitemap.png) <br> (The one here is only an example, include your own site map)
+![Website Sitemap](img/Website Sitemape.png) 
+
 
 ## References
 
