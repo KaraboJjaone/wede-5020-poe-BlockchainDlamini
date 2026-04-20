@@ -2,23 +2,54 @@
 
 All notable changes to this project will be documented in this file.
 
-This project follows Semantic Versioning.
 
-## [1.0.0] 
 ### Added
-- xyz
+
+* Created HTML pages for:
+
+  * Programmes
+  * Services
+  * Contact
+* Added structured content and navigation for new pages
+* Initialized README with project information
 
 ### Changed
-- xyz
+
+* Updated README.md with:
+
+  * Correct image syntax
+  * Website sitemap image
+  * Harvard-style references
+* Improved website structure for better semantic HTML layout
+
+### Removed
+
+* Deleted outdated HTML files:
+
+  * Programmes.html (old version)
+  * News.html
+* Removed unused images:
+
+  * logo.jpg
+  * Contact-1200x451.png
+  * hiv and aids.jpg
+  * Website Sitemap.png
+  * Training and edu.jpg
+  * Programmes.png
+  * NPO.jpg
+  * 4branding.jpg
+  * 3startup.jpg
+* Removed old image directory and unnecessary files
 
 ### Fixed
-- xyz
 
-## Semantic Versioning
+* Fixed image syntax issues in README.md
 
-Format: MAJOR.MINOR.PATCH  
-Example: 2.1.3
+### Other
 
-- MAJOR → Breaking changes (1.0.0 → 2.0.0)  
-- MINOR → New features (1.0.0 → 1.1.0)  
-- PATCH → Bug fixes / small improvements (1.0.0 → 1.0.1)
+* Merged updates into main branch
+* Cleaned up project structure by removing redundant files
+* Updated multiple CHANGELOG.md entries during development
+
+
+
