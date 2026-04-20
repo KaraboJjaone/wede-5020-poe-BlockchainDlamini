@@ -54,3 +54,4 @@ All notable changes to this project will be documented in this file.
 
 - Added images to programmes.html page
 - Added references of W3Schools to README
+- Updated project overview
