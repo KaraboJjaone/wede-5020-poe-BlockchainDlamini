@@ -49,7 +49,7 @@ Phase 3: Initial Development Setup (17–20 April)
 
 ## Sitemap
 
-![image alt](https://github.com/KaraboJjaone/wede-5020-poe-BlockchainDlamini/blob/4610cb1b50c53e500eb4e925686cb933add7bebf/img/Website%20Sitemap.png)
+![img alt](https://github.com/KaraboJjaone/wede-5020-poe-BlockchainDlamini/blob/6cc941f02ff96c0696679d45ffcb57536823e3d4/img/Website%20Sitemap%20Image.png)
 
 ## References
 
