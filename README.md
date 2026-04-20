@@ -9,7 +9,29 @@ WEDE 5020 POE
 
 ## Project Overview
 
-Pull this from your project proposal.
+This project focuses on building a professional, fully functional website while developing your web development skills. By the end, you should have a site that is responsive, interactive, and SEO-friendly.
+
+Main Phases
+
+1. Building the Foundation
+
+Plan your project (target audience, goals, structure)
+Research and gather content (text, images, etc.)
+Create the basic HTML structure (header, navigation, main content, footer)
+Organise your files and folders properly
+
+2. Designing the Website
+
+Use CSS to style the layout, colours, and typography
+Make the site responsive (works on mobile, tablet, desktop)
+Improve user experience (UX) (easy navigation, readability, accessibility)
+
+3. Adding Functionality & SEO
+
+Use JavaScript for interactivity
+Apply SEO best practices
+Create functional forms with validation
+Integrate external content
 
 ## Website Goals and Objectives
 
