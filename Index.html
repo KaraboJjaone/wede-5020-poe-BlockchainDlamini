@@ -3,74 +3,238 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>South African Business Council NPC</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <!-- Contact information -->
-        <p>Have any questions?</p>
-        <p>+27 84 900 0786</p>
-        <p>hello@sabusinesscouncil.org.za</p>
+      <nav class="top-bar">
+        <div class="contact-details">
+          <span>Have any questions?</span>
+          <span>+27 84 900 0786</span>
+          <span>hello@sabusinesscouncil.org.za</span>
+        </div>
 
-        <!-- Social media links -->
-        <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09"
-          >Twitter</a
-        >
-        <a
-          href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D"
-          >Instagram</a
-        >
+        <div class="social-links">
+          <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09">Twitter</a>
+          <a href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D">Instagram</a>
+          <a class="small-button" href="contact.html">Contact Us</a>
+        </div>
+      </nav>
 
-        <!-- Contact button -->
-        <button>Contact Us</button>
+      <nav class="main-nav">
+        <a class="logo" href="Index.html">
+          <img src="logo.jpg" alt="South African Business Council logo" />
+        </a>
 
-        <!-- Company logo -->
-        <img src="logo.jpg" alt="logo" width="90" height="90" />
-
-        <!-- Navigation menu -->
-        <ul>
-          <li><a href="index.html">Home</a></li>
+        <ul class="nav-links">
+          <li><a href="Index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Our Services</a></li>
           <li><a href="programmes.html">Programmes</a></li>
           <li><a href="enquiry.html">Enquiries</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
-
-        <!-- Menu icon -->
-        <button>&#9776;</button>
-
-        <!-- Search button -->
-        <button>🔍</button>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h1>BY GROOMING OUR NEXT GENERATION FOR SUCCESS</h1>
-        <h1>WOMAN|YOUTH|SMMES</h1>
-        <img src="NPO.jpg" alt="NPO" width="100%" height="500" />
-
-        <!-- Call-to-action button -->
-        <button>Donate Now</button>
-
-        <p>
-          Welcome to the South African Business Council NPC, where we are
-          passionately dedicated to making a tangible and lasting impact on the
-          lives of individuals and communities in South Africa.
-        </p>
-        <h2>TOGETHER WE CAN!</h2>
-
-        <table width="80%" align="center" border="1" cellpadding="10">
-          <tr>
-            <td>📧 Get Help with Start-up Business Support services.</td>
-            <td align="right">
-              <button>Contact Us</button>
-            </td>
-          </tr>
-        </table>
+      <section class="hero-section">
+        <div class="hero-content">
+          <p class="eyebrow">South African Business Council NPC</p>
+          <h1>Grooming our next generation for success</h1>
+          <p class="hero-subtitle">Supporting women, youth, SMMEs, schoolgirls, and disadvantaged communities through practical business and social impact programmes.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#enquiries">Donate or Sponsor</a>
+            <a class="btn secondary-btn" href="#services">View Services</a>
+          </div>
+        </div>
+        <img src="NPO.jpg" alt="Smiling children supported by community programmes" />
       </section>
+
+      <section class="intro-section">
+        <div>
+          <p class="eyebrow">Together we can</p>
+          <h2>Creating lasting impact in South Africa</h2>
+          <p>
+            Welcome to the South African Business Council NPC, where we are passionately dedicated to making a tangible and lasting impact on the lives of individuals and communities in South Africa.
+          </p>
+        </div>
+
+        <div class="highlight-card">
+          <h3>Our focus</h3>
+          <p>Employment creation, safer communities, period poverty support, and a sustainable business ecosystem for those in need.</p>
+        </div>
+      </section>
+
+      <section id="about" class="content-section">
+        <div class="section-heading">
+          <p class="eyebrow">About us</p>
+          <h2>Driven by people, purpose, and practical support</h2>
+        </div>
+
+        <div class="two-column">
+          <div>
+            <p>
+              As a non-profit organisation, we focus on critical issues requiring urgent attention. Established in 2019, we are proudly a level one, black-owned, female-operated organisation delivering impactful solutions.
+            </p>
+            <p>
+              We love what we do and are passionate about making a difference. We believe in people more than business plans, and we are open to engaging and offering turnkey solutions.
+            </p>
+          </div>
+
+          <div class="info-grid">
+            <article>
+              <h3>Our Mission</h3>
+              <p>Create employment, reduce gender based violent crimes, eliminate period poverty, and create a sustainable business ecosystem for all those in need.</p>
+            </article>
+            <article>
+              <h3>Our Vision</h3>
+              <p>Make positive change within the South African business sector, create wealth, reduce poverty and crime, and be remembered as a trusted partner.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="content-section soft-bg">
+        <div class="section-heading">
+          <p class="eyebrow">Our services</p>
+          <h2>Professional support for growth and development</h2>
+        </div>
+
+        <div class="card-grid">
+          <article>
+            <img src="Training-_-Education-qcrvn1dr20ixpgein60osci3q4qtuby5jlg3bn9yhc.png" alt="Training and education icon" />
+            <h3>Training and Education</h3>
+            <p>Short accredited courses that help youth, small businesses, and individuals gain skills and certificates after completion.</p>
+          </article>
+          <article>
+            <img src="Skills-Development-qcrvn0fwv6hndufvsnm27uqn4qvgmmuf7gsludbcnk.png" alt="Skills development icon" />
+            <h3>Skills Development</h3>
+            <p>Structured support that improves problem-solving, confidence, and the ability to perform complex tasks efficiently.</p>
+          </article>
+          <article>
+            <img src="Start-ups-business-support-qcrvmzi2ocgd28h8y57fncz6jd03exqovc54d3cqts.png" alt="Start-up business support icon" />
+            <h3>Start-up Business Support</h3>
+            <p>Guidance for people who want to start businesses, including planning, development, mentoring, and funding readiness.</p>
+          </article>
+          <article>
+            <img src="Brand-and-Design-qcrvn39ffolicobsc6txxc10wwhk9q5m7ur2a7764w.png" alt="Brand and design icon" />
+            <h3>Brand and Design</h3>
+            <p>Logo design, branding, social media content, marketing strategies, and visibility support for growing organisations.</p>
+          </article>
+          <article>
+            <img src="Capacity-Building-qcrvn553tco2zw9217n72bjy3o8ap4d2w4218r4dsg.png" alt="Capacity building icon" />
+            <h3>Capacity Building</h3>
+            <p>Workshops and training sessions that improve knowledge, leadership, and personal development skills.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-heading">
+          <p class="eyebrow">Packages</p>
+          <h2>Services designed for businesses and non-profit organisations</h2>
+        </div>
+
+        <div class="package-grid">
+          <article>
+            <h3>Start-up Business Support Services</h3>
+            <ul>
+              <li>Brochure and business profile support</li>
+              <li>Business consultation and mentoring</li>
+              <li>Funding readiness guidance</li>
+              <li>Sales and marketing strategies</li>
+              <li>Professional business plan</li>
+              <li>Accounting services and projections</li>
+            </ul>
+          </article>
+          <article>
+            <h3>NPO Services</h3>
+            <ul>
+              <li>Company registration for NPOs and NPCs</li>
+              <li>Secretarial services and compliance</li>
+              <li>Email signatures and letterheads</li>
+              <li>Business cards, brochures, and banners</li>
+              <li>Company profile and social media setup</li>
+              <li>Content and video design</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Brand and Design</h3>
+            <ul>
+              <li>Logo design and company branding</li>
+              <li>Social media marketing</li>
+              <li>Google ads services</li>
+              <li>Mobile app development</li>
+              <li>Website development</li>
+              <li>Print media design</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="programmes" class="content-section soft-bg">
+        <div class="section-heading">
+          <p class="eyebrow">Programmes</p>
+          <h2>Current programmes making a difference</h2>
+        </div>
+
+        <div class="programme-grid">
+          <article>
+            <img src="Learnership.jpg" alt="Learnership programme" />
+            <h3>Learnership Programmes</h3>
+          </article>
+          <article>
+            <img src="hiv_aids_history.jpg" alt="HIV and Aids awareness" />
+            <h3>HIV and Aids</h3>
+          </article>
+          <article>
+            <img src="Women Owned.jpg" alt="Women-owned business support" />
+            <h3>Supporting Women-Owned Business</h3>
+          </article>
+          <article>
+            <img src="Teenage Pregnancy.jpg" alt="Teenage pregnancy awareness" />
+            <h3>Teenage Pregnancy</h3>
+          </article>
+        </div>
+      </section>
+
+      <section id="enquiries" class="content-section enquiry-section">
+        <div>
+          <p class="eyebrow">Enquiries</p>
+          <h2>Donate, sponsor, or ask for support</h2>
+          <p>
+            Get help with start-up business support services, book a mentor, or contact us about donating and sponsorship opportunities.
+          </p>
+          <a class="btn" href="contact.html">Book a Mentor</a>
+        </div>
+
+        <form class="enquiry-form">
+          <label for="name">Full Name</label>
+          <input id="name" type="text" name="name" />
+
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+
+          <button type="submit">Submit Enquiry</button>
+        </form>
+      </section>
+
+      <table class="support-table">
+        <tr>
+          <td>Get help with start-up business support services.</td>
+          <td><a class="btn" href="contact.html">Contact Us</a></td>
+        </tr>
+      </table>
     </main>
+
+    <footer>
+      <p>South African Business Council NPC</p>
+      <p>hello@sabusinesscouncil.org.za | +27 84 900 0786</p>
+    </footer>
   </body>
 </html>
