@@ -9,7 +9,29 @@ WEDE 5020 POE
 
 ## Project Overview
 
-Pull this from your project proposal.
+This project focuses on building a professional, fully functional website while developing your web development skills. By the end, you should have a site that is responsive, interactive, and SEO-friendly.
+
+Main Phases
+
+1. Building the Foundation
+
+Plan your project (target audience, goals, structure)
+Research and gather content (text, images, etc.)
+Create the basic HTML structure (header, navigation, main content, footer)
+Organise your files and folders properly
+
+2. Designing the Website
+
+Use CSS to style the layout, colours, and typography
+Make the site responsive (works on mobile, tablet, desktop)
+Improve user experience (UX) (easy navigation, readability, accessibility)
+
+3. Adding Functionality & SEO
+
+Use JavaScript for interactivity
+Apply SEO best practices
+Create functional forms with validation
+Integrate external content
 
 ## Website Goals and Objectives
 
@@ -49,11 +71,17 @@ Phase 3: Initial Development Setup (17–20 April)
 
 ## Sitemap
 
-![image alt](https://github.com/KaraboJjaone/wede-5020-poe-BlockchainDlamini/blob/4610cb1b50c53e500eb4e925686cb933add7bebf/img/Website%20Sitemap.png)
+![img alt](https://github.com/KaraboJjaone/wede-5020-poe-BlockchainDlamini/blob/6cc941f02ff96c0696679d45ffcb57536823e3d4/img/Website%20Sitemap%20Image.png)
 
 ## References
 
+African Health Organisation, 2025. Teenage Pregnancy. [electronic print] Available at: https://aho.org/health-topics/teenage-pregnancy/ [Accessed 19 April 2026]
+
 Conventry Domains, 2019. HTML, CSS and the Languages of the Web. [online] Available at: https://coventry.domains/learn/languages-of-the-web/ [Accessed 4 April 2026]
+
+Edu Programme, 2026. Quest Learnership EduProgramme. [electronic print] Available at: https://www.eduprogramme.co.za/quest-learnership-eduprogramme-2026-opens-in-johannesburg-engineering-training-with-r4725-monthly-stipend/ [Accessed 19 April 2026]
+
+Grants For Women, 2026. Woman-Owned Businesses. [electronic print] Available at: https://www.grantsforwomen.org/2021/06/dream-big-awards-.html [Accessed 19 April 2026]
 
 Growth Pulse Media, 2026 Web Design Pricing South Africa: Complete Cost Guide 2026, [online] Available at: https://www.growthpulsemedia.co.za/web-design-pricing-south-africa [Accessed 9 April 2026]
 
@@ -65,6 +93,10 @@ SA Business Council, 2023, [online] Available at: https://sabusinesscouncil.org.
 
 Serious Otters, 2025, [online] Available at: https://www.seriousotters.com/blog/digital-marketing-goals-audience-nonprofits-social-enterprises/ [Accessed 18 April 2026]
 
+Spotlight, 2022. Spotlight on HIV. [electronic print] Available at: https://www.spotlightnsp.co.za/2022/07/26/spotlight-on-hiv-six-graphs-that-tell-the-story/ [Accessed 19 April 2026]
+
 Tdl-list, 2015 Domain registrations, [online] Available at: https://tld-list.com/tld/org.za [Accessed 9 April 2026]
+
+W3Schools, 2026 HTML Tutorial [onine] Available at: https://www.w3schools.com/html/default.asp [Accessed 16 April 2026]
 
 Zoho, 2023 Creating a website that engages: The key functionalities you need to include. [online] Available at: https://www.zoho.com/en-au/tech-talk/functionalities-of-a-website.html [Accessed 9 April 2026]
