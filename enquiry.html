@@ -3,63 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Enquiries - South African Business Council NPC</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
     <header>
-      <nav>
-        <!-- Contact information -->
-        <p>Have any questions?</p>
-        <p>+27 84 900 0786</p>
-        <p>hello@sabusinesscouncil.org.za</p>
+      <!-- Top contact bar -->
+      <nav class="top-bar">
+        <div class="contact-details">
+          <span>Have any questions?</span>
+          <span>+27 84 900 0786</span>
+          <span>hello@sabusinesscouncil.org.za</span>
+        </div>
 
-        <!-- Social media links -->
-        <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09"
-          >Twitter</a
-        >
-        <a
-          href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D"
-          >Instagram</a
-        >
+        <div class="social-links">
+          <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09">
+            Twitter
+          </a>
+          <a
+            href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D"
+          >
+            Instagram
+          </a>
+          <a class="contact-button" href="contact.html">Contact Us</a>
+        </div>
+      </nav>
 
-        <!-- Contact button -->
-        <button>Contact Us</button>
+      <!-- Main navigation bar -->
+      <nav class="main-nav">
+        <a class="logo" href="Index.html">
+          <img src="img/logo.jpg" alt="South African Business Council logo" />
+        </a>
 
-        <!-- Company logo -->
-        <img src="img/logo.jpg" alt="logo" width="90" height="90" />
-
-        <!-- Navigation menu -->
-        <ul>
-          <li><a href="index.html">Home</a></li>
+        <ul class="nav-links">
+          <li><a href="Index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Our Services</a></li>
           <li><a href="programmes.html">Programmes</a></li>
-          <li><a href="enquiry.html">Enquiries</a></li>
+          <li><a class="active" href="enquiry.html">Enquiries</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
-
-        <!-- Menu icon -->
-        <button>&#9776;</button>
-
-        <!-- Search button -->
-        <button>🔍</button>
       </nav>
     </header>
-    <img src="img/logo.jpg" alt="logo" width="90" height="90" />
-    <h2>Enquiries To Donate/Sponsor</h2>
 
-    <!-- Enquiry Form -->
-    <form>
-      <label>Full Name:</label><br />
-      <input type="text" name="name" /><br /><br />
+    <main>
+      <!-- Page heading -->
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Enquiries</p>
+          <h1>Enquiries to donate or sponsor</h1>
+          <p>
+            Contact us if you would like to donate, sponsor, ask questions, or
+            support the work of the South African Business Council NPC.
+          </p>
+        </div>
 
-      <label>Email:</label><br />
-      <input type="email" name="email" /><br /><br />
+        <img
+          class="hero-logo"
+          src="img/logo.jpg"
+          alt="South African Business Council logo"
+        />
+      </section>
 
-      <label>Message:</label><br />
-      <textarea name="message" rows="5" cols="30"></textarea><br /><br />
+      <!-- Enquiry form section -->
+      <section class="form-section">
+        <div class="form-intro">
+          <p class="eyebrow">Get in touch</p>
+          <h2>Send us your enquiry</h2>
+          <p>
+            Complete the form below and we will respond to your message as soon
+            as possible.
+          </p>
+        </div>
 
-      <button type="submit">Submit</button>
-    </form>
+        <form class="enquiry-form">
+          <label for="name">Full Name</label>
+          <input id="name" type="text" name="name" />
+
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+      <p>South African Business Council NPC</p>
+      <p>hello@sabusinesscouncil.org.za | +27 84 900 0786</p>
+    </footer>
   </body>
 </html>

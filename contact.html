@@ -3,178 +3,202 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact Us - South African Business Council NPC</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
     <header>
-      <nav>
-        <!-- Contact information -->
-        <p>Have any questions?</p>
-        <p>+27 84 900 0786</p>
-        <p>hello@sabusinesscouncil.org.za</p>
+      <!-- Top contact bar -->
+      <nav class="top-bar">
+        <div class="contact-details">
+          <span>Have any questions?</span>
+          <span>+27 84 900 0786</span>
+          <span>hello@sabusinesscouncil.org.za</span>
+        </div>
 
-        <!-- Social media links -->
-        <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09"
-          >Twitter</a
-        >
-        <a
-          href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D"
-          >Instagram</a
-        >
+        <div class="social-links">
+          <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09">
+            Twitter
+          </a>
+          <a
+            href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D"
+          >
+            Instagram
+          </a>
+          <a class="contact-button" href="contact.html">Contact Us</a>
+        </div>
+      </nav>
 
-        <!-- Contact button -->
-        <button>Contact Us</button>
+      <!-- Main navigation bar -->
+      <nav class="main-nav">
+        <a class="logo" href="Index.html">
+          <img src="img/logo.jpg" alt="South African Business Council logo" />
+        </a>
 
-        <!-- Company logo -->
-        <img src="img/logo.jpg" alt="logo" width="90" height="90" />
-
-        <!-- Navigation menu -->
-        <ul>
-          <li><a href="index.html">Home</a></li>
+        <ul class="nav-links">
+          <li><a href="Index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Our Services</a></li>
           <li><a href="programmes.html">Programmes</a></li>
           <li><a href="enquiry.html">Enquiries</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a class="active" href="contact.html">Contact Us</a></li>
         </ul>
-
-        <!-- Menu icon -->
-        <button>&#9776;</button>
-
-        <!-- Search button -->
-        <button>🔍</button>
       </nav>
     </header>
-    <section>
-      <h1>Feel free to contact us</h1>
-      <td width="50%" align="right">
-        <img src="img/Contact-1200x451.png" width="400" height="150" />
-        <h1>Find us on</h1>
-        <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09"
-          >Twitter</a
-        >
-        <a
-          href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D"
-          >Instagram</a
-        >
-        <button>Contact Us</button>
 
-        <hr />
-        <!-- Address -->
-        <h2>01 - Address</h2>
-        <p>No 2 Ncondo Place</p>
-        <p>Umhlanga Ridge</p>
-        <p>Umhlanga</p>
-        <p>4319</p>
+    <main>
+      <!-- Page heading -->
+      <section class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Contact us</p>
+          <h1>Feel free to contact us</h1>
+          <p>
+            Reach out to the South African Business Council NPC for support,
+            enquiries, partnerships, donations, and sponsorships.
+          </p>
+        </div>
 
-        <br />
+        <img src="img/Contact-1200x451.png" alt="Contact us" />
+      </section>
 
-        <h2>02 - Address</h2>
-        <p>Unit 4 Rydallvale Park</p>
-        <p>10 Rydallvale Cres</p>
-        <p>Umhlanga</p>
-        <p>4319</p>
-
-        <br />
-
-        <h2>03 - Postal Address</h2>
-        <p>P O Box 10100</p>
-        <p>Marine Parade</p>
-        <p>Durban</p>
-        <p>4056</p>
-
-        <hr />
-
-        <!-- Contact Info -->
-        <h2>04 - Contact Info</h2>
-        <p>Phone: +27 (0) 84 900 0786</p>
-        <p>
-          Email:
-          <a href="mailto:hello@sabusinesscouncil.org.za">
-            hello@sabusinesscouncil.org.za
+      <!-- Social media section -->
+      <section class="social-section">
+        <h2>Find us on</h2>
+        <div class="social-buttons">
+          <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09">
+            Twitter
           </a>
-        </p>
+          <a
+            href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D"
+          >
+            Instagram
+          </a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </section>
 
-        <hr />
+      <!-- Address and contact information -->
+      <section class="contact-section">
+        <div class="info-cards">
+          <article class="info-card">
+            <h2>01 - Address</h2>
+            <p>No 2 Ncondo Place</p>
+            <p>Umhlanga Ridge</p>
+            <p>Umhlanga</p>
+            <p>4319</p>
+          </article>
 
-        <!-- Contact Form -->
-        <h2>Send us a message</h2>
+          <article class="info-card">
+            <h2>02 - Address</h2>
+            <p>Unit 4 Rydallvale Park</p>
+            <p>10 Rydallvale Cres</p>
+            <p>Umhlanga</p>
+            <p>4319</p>
+          </article>
 
-        <form>
-          <label>Full Name:</label><br />
-          <input type="text" name="name" /><br /><br />
+          <article class="info-card">
+            <h2>03 - Postal Address</h2>
+            <p>P O Box 10100</p>
+            <p>Marine Parade</p>
+            <p>Durban</p>
+            <p>4056</p>
+          </article>
 
-          <label>Email:</label><br />
-          <input type="email" name="email" /><br /><br />
+          <article class="info-card">
+            <h2>04 - Contact Info</h2>
+            <p>Phone: +27 (0) 84 900 0786</p>
+            <p>
+              Email:
+              <a href="mailto:hello@sabusinesscouncil.org.za">
+                hello@sabusinesscouncil.org.za
+              </a>
+            </p>
+          </article>
+        </div>
 
-          <label>Message:</label><br />
-          <textarea name="message" rows="5" cols="30"></textarea><br /><br />
+        <!-- Contact form -->
+        <form class="contact-form">
+          <h2>Send us a message</h2>
+
+          <label for="name">Full Name</label>
+          <input id="name" type="text" name="name" />
+
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
 
           <button type="submit">Submit</button>
         </form>
-      </td>
+      </section>
 
-      <!-- Google Map -->
-      <h2>Our Location</h2>
-      <iframe
-        src="https://www.google.com/maps?q=Umhlanga&output=embed"
-        width="100%"
-        height="300"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
-      <hr />
-    </section>
+      <!-- Google map -->
+      <section class="map-section">
+        <h2>Our Location</h2>
+        <iframe
+          src="https://www.google.com/maps?q=Umhlanga&output=embed"
+          title="Google map showing Umhlanga"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
+    </main>
+
+    <!-- Footer section -->
     <footer>
-      <hr />
+      <div class="footer-columns">
+        <section>
+          <h3>Contact Centre</h3>
+          <p>
+            No 2 Ncondo Place,<br />
+            Umhlanga, 4319,<br />
+            Republic of South Africa
+          </p>
+          <p>Phone: +27 (0) 84 900 0786</p>
+          <p>Email: hello@sabusinesscouncil.org.za</p>
+        </section>
 
-      <!-- Contact Centre -->
-      <h3>Contact Centre</h3>
-      <p>
-        No 2 Ncondo Place,<br />
-        Umhlanga, 4319,<br />
-        Republic of South Africa
+        <section>
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Our Services</h3>
+          <ul>
+            <li>Training and Education</li>
+            <li>Skills Development</li>
+            <li>Start-up business support</li>
+            <li>Brand and Design</li>
+            <li>Capacity Building</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Find Us On</h3>
+          <p>
+            <a
+              href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D"
+            >
+              Instagram
+            </a>
+            |
+            <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09">
+              Twitter
+            </a>
+          </p>
+        </section>
+      </div>
+
+      <p class="copyright">
+        Copyright © 2023, SA Business Council. All Rights Reserved.
       </p>
-      <p>Phone: +27 (0) 84 900 0786</p>
-      <p>Email: hello@sabusinesscouncil.org.za</p>
-
-      <!-- About Us -->
-      <h3>About Us</h3>
-      <ul>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms and Conditions</a></li>
-        <li><a href="#">Cookie Policy</a></li>
-      </ul>
-
-      <!-- Our Services -->
-      <h3>Our Services</h3>
-      <ul>
-        <li>Training and Education</li>
-        <li>Skills Development</li>
-        <li>Start-up business support</li>
-        <li>Brand and Design</li>
-        <li>Capacity Building</li>
-      </ul>
-
-      <!-- Social Media -->
-      <h3>Find Us On</h3>
-      <p>
-        |
-        <a
-          href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D"
-          >Instagram</a
-        >
-        |
-        <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09"
-          >Twitter</a
-        >
-      </p>
-
-      <hr />
-
-      <!-- Copyright -->
-      <p>Copyright © 2023, SA Business Council. All Rights Reserved.</p>
     </footer>
   </body>
 </html>

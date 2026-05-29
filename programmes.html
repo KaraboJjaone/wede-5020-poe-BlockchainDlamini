@@ -3,86 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Programmes - South African Business Council NPC</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
     <header>
-      <nav>
-        <!-- Contact information -->
-        <p>Have any questions?</p>
-        <p>+27 84 900 0786</p>
-        <p>hello@sabusinesscouncil.org.za</p>
+      <!-- Top contact bar -->
+      <nav class="top-bar">
+        <div class="contact-details">
+          <span>Have any questions?</span>
+          <span>+27 84 900 0786</span>
+          <span>hello@sabusinesscouncil.org.za</span>
+        </div>
 
-        <!-- Social media links -->
-        <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09"
-          >Twitter</a
-        >
-        <a
-          href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D"
-          >Instagram</a
-        >
+        <div class="social-links">
+          <a href="https://x.com/SouthNpc?t=BWk1L19J-BqDo7NdvFCsKw&s=09">
+            Twitter
+          </a>
+          <a
+            href="https://www.instagram.com/southafricanbusinesscouncil/?igshid=MzRlODBiNWFlZA%3D%3D"
+          >
+            Instagram
+          </a>
+          <a class="contact-button" href="contact.html">Contact Us</a>
+        </div>
+      </nav>
 
-        <!-- Contact button -->
-        <button>Contact Us</button>
+      <!-- Main navigation bar -->
+      <nav class="main-nav">
+        <a class="logo" href="Index.html">
+          <img src="img/logo.jpg" alt="South African Business Council logo" />
+        </a>
 
-        <!-- Company logo -->
-        <img src="logo.jpg" alt="logo" width="90" height="90" />
-
-        <!-- Navigation menu -->
-        <ul>
-          <li><a href="index.html">Home</a></li>
+        <ul class="nav-links">
+          <li><a href="Index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Our Services</a></li>
-          <li><a href="programmes.html">Programmes</a></li>
+          <li><a class="active" href="programmes.html">Programmes</a></li>
           <li><a href="enquiry.html">Enquiries</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
-
-        <!-- Menu icon -->
-        <button>&#9776;</button>
-
-        <!-- Search button -->
-        <button>🔍</button>
       </nav>
     </header>
-    <section>
-      <table width="90%" align="center">
-        <tr>
-          <td width="50%">
-            <h2>Our Current Programmes</h2>
-          </td>
-          <td width="50%" align="right">
-            <img src="img/Programmes.png" width="400" height="150" />
-          </td>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <td><h2>Learnership Programmes</h2></td>
-          <td>
-            <img src="img/Training and edu.jpg" alt="Learnership" width="150" />
-          </td>
-        </tr>
 
-        <tr>
-          <td><h2>HIV and Aids</h2></td>
-          <td><img src="img/hiv_aids_history.jpg" alt="HIV" width="150" /></td>
-        </tr>
+    <main>
+      <!-- Page heading -->
+      <section class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Our programmes</p>
+          <h1>Current programmes making a difference</h1>
+          <p>
+            Our programmes support youth, women, learners, and communities
+            through education, awareness, and business development.
+          </p>
+        </div>
 
-        <tr>
-          <td><h2>Supporting women-owned business</h2></td>
-          <td>
-            <img src="img/Women Owned.jpg" alt="Women" width="150" />
-          </td>
-        </tr>
+        <img src="img/Programmes.png" alt="Our current programmes" />
+      </section>
 
-        <tr>
-          <td><h2>Teenage Pregnancy</h2></td>
-          <td>
-            <img src="img/Teenage Pregnancy.jpg" alt="Pregnancy" width="150" />
-          </td>
-        </tr>
-      </table>
-    </section>
+      <!-- Programmes section -->
+      <section class="programmes-section">
+        <div class="section-heading">
+          <p class="eyebrow">What we do</p>
+          <h2>Our Current Programmes</h2>
+        </div>
+
+        <div class="programme-cards">
+          <article class="programme-card">
+            <img src="img/Training and edu.jpg" alt="Learnership programme" />
+            <h3>Learnership Programmes</h3>
+            <p>
+              Learnership programmes help people gain practical knowledge,
+              training, and work-related skills.
+            </p>
+          </article>
+
+          <article class="programme-card">
+            <img src="img/hiv_aids_history.jpg" alt="HIV and Aids awareness" />
+            <h3>HIV and Aids</h3>
+            <p>
+              This programme supports awareness and education around HIV and
+              Aids in communities.
+            </p>
+          </article>
+
+          <article class="programme-card">
+            <img src="img/Women Owned.jpg" alt="Women-owned business support" />
+            <h3>Supporting Women-Owned Business</h3>
+            <p>
+              We support women-owned businesses with growth, visibility, and
+              development opportunities.
+            </p>
+          </article>
+
+          <article class="programme-card">
+            <img src="img/Teenage Pregnancy.jpg" alt="Teenage pregnancy awareness" />
+            <h3>Teenage Pregnancy</h3>
+            <p>
+              This programme creates awareness and support for young people and
+              school communities.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Call to action -->
+      <section class="cta">
+        <p>Want to learn more about our programmes?</p>
+        <a class="btn" href="contact.html">Contact Us</a>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+      <p>South African Business Council NPC</p>
+      <p>hello@sabusinesscouncil.org.za | +27 84 900 0786</p>
+    </footer>
   </body>
 </html>
