@@ -48,6 +48,12 @@ The CSS was updated based on feedback from Part 1 by:
 - Adding responsive design
 - Adding interactive button and link states
 
+# Screenshot of different screen sizes
+
+## Desktop
+
+![Project Screenshot](./assets/img/Screenshot (288).png)
+
 ## References
 
 W3Schools, 2026 HTML Tutorial [onine] Available at: https://www.w3schools.com/html/default.asp [Accessed 29 May 2026]
