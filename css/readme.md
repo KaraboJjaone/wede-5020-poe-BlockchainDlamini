@@ -52,7 +52,7 @@ The CSS was updated based on feedback from Part 1 by:
 
 ## Desktop
 
-![Project Screenshot](./assets/img/Screenshot (288).png)
+![img alt](desktop/img/Screenshot (287).png)
 
 ## References
 
