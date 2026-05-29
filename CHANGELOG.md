@@ -2,6 +2,49 @@
 
 All notable changes to this project will be documented in this file.
 
+## Part 2 Updates - Feedback Edits
+
+### Added
+
+- Added a single shared stylesheet named `styles.css` and linked it to all HTML pages.
+- Added beginner-friendly CSS styling for the Home, About Us, Services, Programmes, Enquiries, and Contact Us pages.
+- Added a clear menu bar on the Home page linking to all main website pages.
+- Added responsive layout styling for desktop and smaller screens.
+- Added hover, focus, and active styles for buttons and navigation links.
+- Added styled cards, sections, forms, tables, and footer layouts.
+
+### Changed
+
+- Updated all HTML pages to use one shared CSS file instead of separate page-specific CSS files.
+- Updated image paths so website images load from the `img` folder.
+- Improved page layouts to be neater, more professional, and easier to navigate.
+- Simplified CSS code to be beginner-friendly and easier to understand.
+- Organised the website structure using semantic HTML sections such as `header`, `main`, `section`, and `footer`.
+- Updated navigation bars so the logo appears on the left and menu links are easy to access.
+
+### Removed
+
+- Removed duplicate image files from the main project folder after confirming they exist inside the `img` folder.
+- Removed separate CSS files that were replaced by the shared `styles.css` file.
+- Removed broken search icon text from pages where it displayed incorrectly.
+- Removed unnecessary comments from `styles.css` to keep the file shorter and cleaner.
+
+### Fixed
+
+- Fixed Git merge conflicts in `CHANGELOG.md`.
+- Fixed image paths so images still display after being organised into the `img` folder.
+- Fixed orange modified file indicators by committing completed code changes.
+- Fixed old table-based layouts on pages such as Programmes and Contact Us.
+- Fixed the Contact Us page structure by replacing invalid table cell layout with proper sections.
+
+### Repository
+
+- Committed code changes using descriptive commit messages.
+- Pushed local commits to the remote GitHub repository.
+- Confirmed the working tree was clean after committing changes.
+
+## Part 1 Updates
+
 ### Added
 
 - Created HTML pages for:
