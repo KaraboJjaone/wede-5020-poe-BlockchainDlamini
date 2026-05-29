@@ -52,7 +52,7 @@ The CSS was updated based on feedback from Part 1 by:
 
 ## Desktop
 
-![desktop size](<Screenshot (287).png>)
+![alt text](Desktop-1.png)
 
 ## References
 
