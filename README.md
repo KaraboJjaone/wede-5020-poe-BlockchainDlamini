@@ -43,6 +43,11 @@ website.
 - Form validation was added to the Home, Enquiries, and Contact Us forms.
 - The validation checks that users enter a name, a valid email address, and a
   message with enough detail.
+- The Enquiries and Contact Us forms include `action`, `method`, and
+  `enctype` attributes for email submission.
+- The Enquiries form gives a response based on services, volunteering, or
+  sponsorship requests.
+- The Services page includes a search filter for dynamic content filtering.
 - The Services page now includes accordion buttons that open and close package
   information.
 - The Programmes page now includes a lightbox feature so users can click an
@@ -51,6 +56,8 @@ website.
 ### SEO Improvements
 
 - Meta descriptions were added to the main HTML pages.
+- A `robots.txt` file was added to guide search engine crawlers.
+- A `sitemap.xml` file was added to list the main website pages.
 - Page titles remain clear and relevant to each page.
 - Image alt text is used to describe important images.
 - The website uses semantic HTML sections such as `header`, `main`, `section`,
@@ -67,6 +74,8 @@ website.
 - `css/styles.css`
 - `js/myJava.js`
 - `CHANGELOG.md`
+- `robots.txt`
+- `sitemap.xml`
 
 ## Website Goals and Objectives
 

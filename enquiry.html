@@ -81,12 +81,28 @@
           </p>
         </div>
 
-        <form class="enquiry-form">
+        <form
+          class="enquiry-form"
+          action="mailto:hello@sabusinesscouncil.org.za"
+          method="post"
+          enctype="text/plain"
+        >
           <label for="name">Full Name</label>
           <input id="name" type="text" name="name" />
 
           <label for="email">Email</label>
           <input id="email" type="email" name="email" />
+
+          <label for="phone">Phone Number</label>
+          <input id="phone" type="tel" name="phone" />
+
+          <label for="enquiryType">Enquiry Type</label>
+          <select id="enquiryType" name="enquiryType">
+            <option value="">Choose an option</option>
+            <option value="services">Services or costs</option>
+            <option value="volunteer">Volunteer opportunity</option>
+            <option value="sponsor">Donation or sponsorship</option>
+          </select>
 
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="5"></textarea>

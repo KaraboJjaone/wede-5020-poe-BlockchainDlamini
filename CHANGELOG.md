@@ -10,19 +10,23 @@ All notable changes to this project will be documented in this file.
 - Added validation messages to show users when form information is missing or incorrect.
 - Added an accordion feature on the Services page so users can open and close package details.
 - Added a lightbox feature on the Programmes page so users can click programme images and view them larger.
+- Added a search filter on the Services page so users can quickly find service information.
 - Added a shared JavaScript file named `myJava.js` inside the `js` folder.
 - Added meta description tags to improve SEO on the main website pages.
+- Added `robots.txt` and `sitemap.xml` files for search engine crawling.
 - Linked the JavaScript file to the website pages that need interactivity.
 
 ### Changed
 
 - Updated Services package headings into clickable accordion buttons.
 - Updated Programme images so they can be opened in a larger view.
+- Updated the Enquiries and Contact Us forms with `action`, `method`, phone fields, and message type options.
 - Improved form usability by giving clear feedback after users submit a form.
 
 ### Fixed
 
 - Improved SEO readiness by adding clear page descriptions for search engines.
+- Improved enquiry responses so users receive relevant feedback based on their enquiry type.
 - Improved user experience by making forms easier to complete correctly.
 
 ## Part 2 Updates - Feedback Edits

@@ -122,7 +122,12 @@
         </div>
 
         <!-- Contact form -->
-        <form class="contact-form">
+        <form
+          class="contact-form"
+          action="mailto:hello@sabusinesscouncil.org.za"
+          method="post"
+          enctype="text/plain"
+        >
           <h2>Send us a message</h2>
 
           <label for="name">Full Name</label>
@@ -130,6 +135,17 @@
 
           <label for="email">Email</label>
           <input id="email" type="email" name="email" />
+
+          <label for="phone">Phone Number</label>
+          <input id="phone" type="tel" name="phone" />
+
+          <label for="messageType">Message Type</label>
+          <select id="messageType" name="messageType">
+            <option value="">Choose an option</option>
+            <option value="general">General</option>
+            <option value="partnership">Partnership</option>
+            <option value="support">Support</option>
+          </select>
 
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="5"></textarea>

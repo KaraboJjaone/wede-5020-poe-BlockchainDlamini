@@ -388,8 +388,11 @@ footer ul {
 
 .enquiry-form input,
 .enquiry-form textarea,
+.enquiry-form select,
 .contact-form input,
-.contact-form textarea {
+.contact-form textarea,
+.contact-form select,
+.search-box input {
   width: 100%;
   padding: 12px;
   margin: 8px 0 16px;
@@ -400,8 +403,11 @@ footer ul {
 
 .enquiry-form input:focus,
 .enquiry-form textarea:focus,
+.enquiry-form select:focus,
 .contact-form input:focus,
-.contact-form textarea:focus {
+.contact-form textarea:focus,
+.contact-form select:focus,
+.search-box input:focus {
   outline: 2px solid #198754;
 }
 
@@ -470,6 +476,21 @@ footer ul {
 .back-to-top {
   display: block;
   margin: 24px auto 0;
+}
+
+.search-box {
+  max-width: 520px;
+  margin-bottom: 24px;
+}
+
+.search-box label {
+  color: #123524;
+  font-weight: bold;
+}
+
+.search-result {
+  color: #425466;
+  font-weight: bold;
 }
 
 /* Contact page */

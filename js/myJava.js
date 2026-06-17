@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   setupForms();
   setupAccordion();
   setupLightbox();
+  setupServiceSearch();
   setupBackToTopButton();
 });
 
@@ -17,6 +18,9 @@ function setupForms() {
 
       const name = form.querySelector('input[name="name"]');
       const email = form.querySelector('input[name="email"]');
+      const phone = form.querySelector('input[name="phone"]');
+      const enquiryType = form.querySelector('select[name="enquiryType"]');
+      const messageType = form.querySelector('select[name="messageType"]');
       const message = form.querySelector('textarea[name="message"]');
       const feedback = form.querySelector(".form-feedback");
 
@@ -30,6 +34,18 @@ function setupForms() {
         errors.push("Please enter a valid email address.");
       }
 
+      if (phone && phone.value.trim() === "") {
+        errors.push("Please enter your phone number.");
+      }
+
+      if (enquiryType && enquiryType.value === "") {
+        errors.push("Please choose an enquiry type.");
+      }
+
+      if (messageType && messageType.value === "") {
+        errors.push("Please choose a message type.");
+      }
+
       if (message.value.trim().length < 10) {
         errors.push("Please enter a message of at least 10 characters.");
       }
@@ -38,13 +54,63 @@ function setupForms() {
         feedback.textContent = errors.join(" ");
         feedback.className = "form-feedback error-message";
       } else {
-        feedback.textContent =
-          "Thank you. Your message has been checked and is ready to send.";
+        feedback.textContent = "Processing your form...";
         feedback.className = "form-feedback success-message";
-        form.reset();
+
+        setTimeout(function () {
+          const reply = createFormReply(form, enquiryType, messageType);
+          const emailLink = createEmailLink(form, name, email, phone, message);
+
+          feedback.innerHTML = reply + ' <a href="' + emailLink + '">Send email</a>';
+          form.reset();
+        }, 500);
       }
     });
   });
+}
+
+function createFormReply(form, enquiryType, messageType) {
+  if (form.classList.contains("enquiry-form") && enquiryType) {
+    if (enquiryType.value === "services") {
+      return "Thank you. Our service team can respond with cost and availability details.";
+    }
+
+    if (enquiryType.value === "volunteer") {
+      return "Thank you. We will respond with volunteer opportunities and next steps.";
+    }
+
+    if (enquiryType.value === "sponsor") {
+      return "Thank you. We will respond with sponsorship options and available programmes.";
+    }
+  }
+
+  if (messageType) {
+    return "Thank you. Your " + messageType.value + " message has been checked and is ready.";
+  }
+
+  return "Thank you. Your message has been checked and is ready.";
+}
+
+function createEmailLink(form, name, email, phone, message) {
+  const subject = form.classList.contains("enquiry-form")
+    ? "Website enquiry"
+    : "Website contact message";
+  const body =
+    "Name: " +
+    name.value +
+    "\nEmail: " +
+    email.value +
+    "\nPhone: " +
+    (phone ? phone.value : "Not provided") +
+    "\nMessage: " +
+    message.value;
+
+  return (
+    "mailto:hello@sabusinesscouncil.org.za?subject=" +
+    encodeURIComponent(subject) +
+    "&body=" +
+    encodeURIComponent(body)
+  );
 }
 
 function setupAccordion() {
@@ -82,6 +148,34 @@ function setupLightbox() {
 
   closeButton.addEventListener("click", function () {
     lightbox.classList.remove("show");
+  });
+}
+
+function setupServiceSearch() {
+  const searchBox = document.querySelector("#serviceSearch");
+  const cards = document.querySelectorAll(".service-card");
+  const resultMessage = document.querySelector(".search-result");
+
+  if (!searchBox) {
+    return;
+  }
+
+  searchBox.addEventListener("input", function () {
+    const searchText = searchBox.value.toLowerCase();
+    let visibleCards = 0;
+
+    cards.forEach(function (card) {
+      const cardText = card.textContent.toLowerCase();
+      const isMatch = cardText.includes(searchText);
+
+      card.style.display = isMatch ? "block" : "none";
+
+      if (isMatch) {
+        visibleCards = visibleCards + 1;
+      }
+    });
+
+    resultMessage.textContent = visibleCards + " service result(s) found.";
   });
 }
 

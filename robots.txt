@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://karabojjaone.github.io/wede-5020-poe-BlockchainDlamini/sitemap.xml
