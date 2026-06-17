@@ -405,6 +405,73 @@ footer ul {
   outline: 2px solid #198754;
 }
 
+.form-feedback {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #b42318;
+}
+
+.success-message {
+  color: #0f5132;
+}
+
+/* Beginner-friendly accordion */
+.accordion-button {
+  width: 100%;
+  background-color: #198754;
+  color: white;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.accordion-content {
+  display: none;
+}
+
+.accordion-content.show {
+  display: block;
+}
+
+/* Programme lightbox */
+.lightbox-image {
+  cursor: pointer;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(18, 53, 36, 0.85);
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.lightbox.show {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 8px;
+}
+
+.lightbox button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.back-to-top {
+  display: block;
+  margin: 24px auto 0;
+}
+
 /* Contact page */
 .social-section {
   text-align: center;

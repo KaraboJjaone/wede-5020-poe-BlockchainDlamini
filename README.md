@@ -33,6 +33,41 @@ Apply SEO best practices
 Create functional forms with validation
 Integrate external content
 
+## Part 3 Functionality and SEO Enhancements
+
+The Part 3 update adds beginner-friendly JavaScript and SEO improvements to the
+website.
+
+### JavaScript Features
+
+- Form validation was added to the Home, Enquiries, and Contact Us forms.
+- The validation checks that users enter a name, a valid email address, and a
+  message with enough detail.
+- The Services page now includes accordion buttons that open and close package
+  information.
+- The Programmes page now includes a lightbox feature so users can click an
+  image and view it in a larger format.
+
+### SEO Improvements
+
+- Meta descriptions were added to the main HTML pages.
+- Page titles remain clear and relevant to each page.
+- Image alt text is used to describe important images.
+- The website uses semantic HTML sections such as `header`, `main`, `section`,
+  and `footer`.
+
+### Files Updated for Part 3
+
+- `Index.html`
+- `about.html`
+- `services.html`
+- `programmes.html`
+- `enquiry.html`
+- `contact.html`
+- `css/styles.css`
+- `js/myJava.js`
+- `CHANGELOG.md`
+
 ## Website Goals and Objectives
 
 • Raising awareness: Increase page views, time on site, or content shares <BR>
