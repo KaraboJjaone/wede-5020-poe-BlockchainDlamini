@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file.
 - Added a search filter on the Services page so users can quickly find service information.
 - Added a shared JavaScript file named `myJava.js` inside the `js` folder.
 - Added meta description tags to improve SEO on the main website pages.
+- Added meta keyword tags to the main website pages for SEO rubric alignment.
 - Added `robots.txt` and `sitemap.xml` files for search engine crawling.
 - Linked the JavaScript file to the website pages that need interactivity.
 
@@ -21,6 +22,7 @@ All notable changes to this project will be documented in this file.
 - Updated Services package headings into clickable accordion buttons.
 - Updated Programme images so they can be opened in a larger view.
 - Updated the Enquiries and Contact Us forms with `action`, `method`, phone fields, and message type options.
+- Renamed image files to use cleaner lowercase, descriptive, hyphenated filenames.
 - Improved form usability by giving clear feedback after users submit a form.
 
 ### Fixed

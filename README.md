@@ -56,10 +56,12 @@ website.
 ### SEO Improvements
 
 - Meta descriptions were added to the main HTML pages.
+- Meta keywords were added to the main HTML pages for rubric alignment.
 - A `robots.txt` file was added to guide search engine crawlers.
 - A `sitemap.xml` file was added to list the main website pages.
 - Page titles remain clear and relevant to each page.
 - Image alt text is used to describe important images.
+- Image filenames were cleaned to use lowercase, descriptive, hyphenated names.
 - The website uses semantic HTML sections such as `header`, `main`, `section`,
   and `footer`.
 
@@ -76,6 +78,7 @@ website.
 - `CHANGELOG.md`
 - `robots.txt`
 - `sitemap.xml`
+- renamed files in the `img` folder
 
 ## Website Goals and Objectives
 
