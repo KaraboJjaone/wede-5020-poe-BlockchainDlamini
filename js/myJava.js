@@ -38,6 +38,10 @@ function setupForms() {
         errors.push("Please enter your phone number.");
       }
 
+      if (phone && !/^[0-9]+$/.test(phone.value.trim())) {
+        errors.push("Phone number must contain numbers only.");
+      }
+
       if (enquiryType && enquiryType.value === "") {
         errors.push("Please choose an enquiry type.");
       }

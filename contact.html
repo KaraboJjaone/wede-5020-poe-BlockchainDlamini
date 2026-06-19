@@ -141,7 +141,13 @@
           <input id="email" type="email" name="email" />
 
           <label for="phone">Phone Number</label>
-          <input id="phone" type="tel" name="phone" />
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            inputmode="numeric"
+            pattern="[0-9]+"
+          />
 
           <label for="messageType">Message Type</label>
           <select id="messageType" name="messageType">
