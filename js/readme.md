@@ -43,8 +43,7 @@ website.
 - Form validation was added to the Home, Enquiries, and Contact Us forms.
 - The validation checks that users enter a name, a valid email address, and a
   message with enough detail.
-- The Enquiries and Contact Us forms include `action`, `method`, and
-  `enctype` attributes for email submission.
+- The Enquiries and Contact Us forms include `action` and `method` attributes for email submission.
 - The Enquiries form gives a response based on services, volunteering, or
   sponsorship requests.
 - The Services page includes a search filter for dynamic content filtering.
@@ -57,13 +56,13 @@ website.
 
 - Meta descriptions were added to the main HTML pages.
 - Meta keywords were added to the main HTML pages for rubric alignment.
-- A `robots.txt` file was added to guide search engine crawlers.
-- A `sitemap.xml` file was added to list the main website pages.
+- A robots.txt file was added to guide search engine crawlers.
+- A sitemap.xml file was added to list the main website pages.
 - Page titles remain clear and relevant to each page.
 - Image alt text is used to describe important images.
 - Image filenames were cleaned to use lowercase, descriptive, hyphenated names.
-- The website uses semantic HTML sections such as `header`, `main`, `section`,
-  and `footer`.
+- The website uses semantic HTML sections such as header, main, section,
+  and footer.
 
 ### Files Updated for Part 3
 
